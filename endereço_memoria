@@ -1,1 +1,15 @@
-#
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main()
+{
+    int paraVer ,*ender;
+
+    cout<<"digete o valor para ver onde ele vai ser armazenado\n";
+    cin>> paraVer;
+     ender = &paraVer;
+    cout<<"Endereco de memoria\n"<<ender;
+    return 0;
+}
+
