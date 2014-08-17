@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int quadrado (int valor){
+    valor = valor*valor;
+    return valor;
+}
+int main()
+{
+    int resultado,valor;
+    cout << "digite uma valor para verificar o quadrado" << endl;
+    cin>> valor;
+    resultado = quadrado (valor);
+    cout<<"o quadrado é "<< resultado;
+    return 0;
+}
