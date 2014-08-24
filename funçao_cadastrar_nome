@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+string nome_funcionario(){
+    string novo_nome;
+    cout<<("Digite o nome do novo funcionario");
+    getline(cin, novo_nome);
+    return(novo_nome);
+}
+int main()
+{
+   string novo = nome_funcionario();
+    cout<< novo;
+
+}
