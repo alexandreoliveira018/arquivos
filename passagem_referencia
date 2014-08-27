@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+int altera (int &x,int &z){
+    x=4;
+    z=6;
+}
+int main()
+{
+    int a=1;
+    int b=3;
+    altera(a,b);
+
+
+    cout << a <<"\n"<<"\n"<< b;
+    return 0;
+}
