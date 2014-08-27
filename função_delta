@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+int delta(int a, int b, int c){
+
+    int resultado = ((b*b)-4*a*c);
+    return(resultado);
+
+}
+int main()
+{
+
+    int valor;
+    valor = delta(1,-4,8);
+    cout<< valor;
+    return 0;
+}
