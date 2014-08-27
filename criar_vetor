@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int i, vetor [5];
+  for(i=0;i<5;i++){
+    cout<< ("digite um valor para o indice\t")<<i+1<<"\n";
+    cin>> vetor[i];
+  }
+  
+
+
+    return 0;
+}
